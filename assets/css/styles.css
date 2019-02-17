@@ -3,7 +3,7 @@
 	padding: 0;
 }
 body{
-	font-family: 'Raleway', Helvetica, sans-serif;
+	font-family: 'Raleway', 'Helvetica', sans-serif;
 	background-color: #f2f3f4;
 	background-image: url('../img/pattern.png'), -moz-linear-gradient(140deg, #f2f3f4 45%, #5f61ba 55%);
 	background-image: url('../img/pattern.png'), -webkit-linear-gradient(140deg, #f2f3f4 45%, #5f61ba 55%);
@@ -46,7 +46,7 @@ h1::after, h2::after{
     transition:all .3s ease;
 }
 .loader::before {
-	content: "";
+    content: "";
     position: absolute;
     border: 5px solid rgb(99,44,111);
     width: 100px;
@@ -71,7 +71,7 @@ h1::after, h2::after{
     animation: load 1s ease-out infinite;
     transform: rotate(0deg);
 }
-@keyframes rotarload {
+@keyframes load {
     0%   {transform: rotate(0deg)}
     100% {transform: rotate(360deg)}
 }
