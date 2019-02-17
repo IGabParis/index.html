@@ -48,26 +48,26 @@ h1::after, h2::after{
 .loader::before {
     content: "";
     position: absolute;
-    border: 5px solid rgb(99,44,111);
-    width: 100px;
+    border: 2px solid rgb(99,44,111);
+    width: 150px;
     height: 100px;
     border-radius: 50%;
     box-sizing: border-box;
-    border-left: 5px solid rgba(91,44,111,0);
-    border-top: 5px solid rgba(91,44,111,0);
+    border-left: 2px solid rgba(91,44,111,0);
+    border-top: 2px solid rgba(91,44,111,0);
     animation: load 1s linear infinite;
     transform: rotate(0deg);
 }
 .loader::after {
     content: "";
     position: absolute;
-    border: 5px solid rgba(210,180,222,.5);
-    width: 100px;
+    border: 2px solid rgba(210,180,222,.5);
+    width: 150px;
     height: 100px;
     border-radius: 50%;
     box-sizing: border-box;
-    border-left: 5px solid rgba(210,180,222, 0);
-    border-top: 5px solid rgba(210,180,222, 0);
+    border-left: 2px solid rgba(210,180,222, 0);
+    border-top: 2px solid rgba(210,180,222, 0);
     animation: load 1s linear infinite;
     transform: rotate(0deg);
 }
