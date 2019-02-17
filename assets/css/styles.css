@@ -46,7 +46,7 @@ h1::after, h2::after{
     transition:all .3s ease;
 }
 .loader::before {
-	content: "";
+    content: "";
     position: absolute;
     border: 5px solid rgb(99,44,111);
     width: 100px;
@@ -68,7 +68,7 @@ h1::after, h2::after{
     box-sizing: border-box;
     border-left: 5px solid rgba(210,180,222, 0);
     border-top: 5px solid rgba(210,180,222, 0);
-    animation: load 1s ease-out infinite;
+    animation: load 1s linear infinite;
     transform: rotate(0deg);
 }
 @keyframes load {
