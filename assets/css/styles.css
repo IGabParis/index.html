@@ -192,6 +192,18 @@ h1::after, h2::after{
 	font-size: 18px;
 	vertical-align: middle;
 }
+#home .btn-cv{
+	margin: auto;
+	padding: 10px 20px;
+	background-color: #541381;
+	color: #fff;
+	text-decoration: none;
+	box-shadow: 2px 2px 1px 1px rgba(0,0,0,.5);
+	transition: ease .5s;
+}
+#home .btn-cv:hover{
+	background-color: #5f61ba;
+}
 /* EXPERIENCE AND STUDIES */
 #experience h3, #experience p, #studies h3, #studies p{
 	margin: 2% auto 1% auto;
