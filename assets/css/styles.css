@@ -5,10 +5,10 @@
 body{
 	font-family: 'Raleway', Helvetica, sans-serif;
 	background-color: #f2f3f4;
-	background-image: url('../img/pattern.png'), -moz-linear-gradient(140deg, #f2f3f4 45%, #5f61ba 55%);
-	background-image: url('../img/pattern.png'), -webkit-linear-gradient(140deg, #f2f3f4 45%, #5f61ba 55%);
-	background-image: url('../img/pattern.png'),  -ms-linear-gradient(140deg, #f2f3f4 45%, #5f61ba 55%);
-	background-image: url('../img/pattern.png'),  linear-gradient(140deg, #f2f3f4 45%, #5f61ba 55%);
+	background: -moz-linear-gradient(140deg, #f2f3f4 45%, #5f61ba 55%);
+	background: -webkit-linear-gradient(140deg, #f2f3f4 45%, #5f61ba 55%);
+	background: -ms-linear-gradient(140deg, #f2f3f4 45%, #5f61ba 55%);
+	background: linear-gradient(140deg, #f2f3f4 45%, #5f61ba 55%);
 }
 h2{
 	margin: 4% auto 3% auto;
@@ -161,14 +161,13 @@ h1::after, h2::after{
 	margin: 6% auto;
 }
 .container{
-	width: 95%;
+	width: 100%;
 	margin: 5% auto;
 	background-color: #fff;
-	box-shadow: 2px 1px 1px 2px rgba(0,0,0,.5);
-	border-radius: 10px;
+	box-shadow: 1px 1px 2px 2px rgba(0,0,0,.5);
 }
 .container section{
-	width: 90%;
+	width: 95%;
 	padding: 5px;
 	text-align: center;
 	margin: 1% auto;
@@ -176,16 +175,17 @@ h1::after, h2::after{
 }
 /*HOME*/
 #home{
-	margin: 3% auto 1% auto;
+	margin: 4% auto 1% auto;
 	padding: 5px 0;
 }
 #home .img-round{
 	width: 100%;
 	max-width: 180px;
 	border-radius: 50%;
-	margin: auto;
+	margin: 2% auto 1% auto;
 	vertical-align: middle;
-	border: 12px solid #541381;
+	border: 7px solid #541381;
+	box-shadow: 1px 1px 5px 1px rgba(0,0,0,.5);
 }
 #home .description{
 	margin: auto;
